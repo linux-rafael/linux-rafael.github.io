@@ -30,6 +30,10 @@ body
     max-height: 844px;
     background-color: #592a198e
 }
+.info_windows p{
+    text-align: center;
+    color: #592A19;
+}
 #top
 {
     display: flex;
@@ -45,7 +49,7 @@ body
     height: 140px;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #592A19;
+    border: 4px solid #592A19;
     padding: 5px;
 }
 img
@@ -61,6 +65,8 @@ img
 #logo > h2
 {
     color: #f0fdfa;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #bottom
 {
@@ -89,7 +95,7 @@ nav > li a
     min-width: 220px;
     height: 45px;
     border-radius: 5px;
-    background-color: #1a1a1ad7;
+    background-color: #202020c4;
     font-size: 18px;
     text-transform: uppercase;
     font-family: Arial;
@@ -99,6 +105,14 @@ nav > li a
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+nav > li > a::before
+{   content: "";
+    left: 0;
+    width: 3px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
 }
 nav > li > a > .icons
 {
